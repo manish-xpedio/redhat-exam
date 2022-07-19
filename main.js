@@ -18,7 +18,7 @@ app.use(cors({
 
 app.get('/', function(req, res) {
 	console.log('REQUEST', req.body);
-	res.send('Message from server....');
+	res.send('Message from server for REDHAT exam....');
 })
 
 app.listen(7001);
