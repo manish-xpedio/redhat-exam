@@ -6,7 +6,6 @@ var cors = require('cors');
 var path = require('path');
 app.use(bodyParser.json());
 app.use(express.static(__dirname));
-var formidable = require('formidable');
 var fs = require('fs');
 
 app.use(cors({
